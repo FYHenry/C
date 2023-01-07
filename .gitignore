@@ -1,0 +1,4 @@
+# Ignore C exutable files and C libraries
+*
+!*.*
+/MISAKA.c
