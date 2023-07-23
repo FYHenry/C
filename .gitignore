@@ -1,8 +1,11 @@
-# Ignore C exutable files and C libraries
+# Ignore C executable files and C libraries
 **
 !**.*
 /MISAKA.c
 !**/
 .**/
+!.gitignore
+!**/.gitignore
 TP_LPro_Vision/*
 **.so
+!**/Makefile
