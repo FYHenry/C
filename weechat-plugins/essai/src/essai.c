@@ -1,6 +1,6 @@
 /*
 gcc $(pkg-config --cflags weechat) \
-  -shared -fPIC -Wall -Wextra essai.c essai-command.c -o ./essai.so \
+  -shared -fPIC -Wall -Wextra essai.c essai-command.c -o essai.so \
   $(pkg-config --libs weechat)
 */
 #include <stdlib.h>
